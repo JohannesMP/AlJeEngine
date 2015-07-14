@@ -45,3 +45,6 @@ lib/math/src/math.cpp
 *.suo
 *.suo
 *.ilk
+
+# Exception for premake
+!premake5.exe
