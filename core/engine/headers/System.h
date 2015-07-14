@@ -55,7 +55,7 @@ namespace AlJeEngine
     * @param name The name of the system.
     * @param type The type of the system.
     */
-    System(std::string &name, ESys type) 
+    System(std::string name, ESys type) 
           :
           _name(name),
           _type(type),
