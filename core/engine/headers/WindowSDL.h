@@ -6,7 +6,7 @@
 #include <SDL.h>
 #include <SDL_opengl.h>
 #include "../../engine/headers/System.h"
-#include "../glm/vec2.hpp"
+#include "../../../lib/math/glm/vec2.hpp"
 #include <utility> //std::pair
 
 
