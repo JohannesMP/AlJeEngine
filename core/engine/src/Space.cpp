@@ -40,7 +40,7 @@ namespace AlJeEngine
     for (auto systems : _systems)
     {
       if (systems == system)
-        throw std::exception("Attempted to add two copies of the same system to one space. No.");
+        throw std::runtime_error("Attempted to add two copies of the same system to one space. No.");
     }
     _systems.push_back(system);
   }
