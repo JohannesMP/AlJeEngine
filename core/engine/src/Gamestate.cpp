@@ -1,4 +1,4 @@
-#include "..\headers\Gamestate.h"
+#include "../headers/Gamestate.h"
 /**
 * @author Allan Deutsch
 * @version 0.5
