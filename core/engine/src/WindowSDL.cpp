@@ -8,7 +8,7 @@
 #include "../../engine/headers/WindowSDL.h"
 #include "../headers/Engine.h"
 #include <iostream> //cout, endl
-#include "../glm/gtc/matrix_transform.hpp"
+#include "../../../lib/math/glm/gtc/matrix_transform.hpp"
 
 const int screenWidth = 1280;
 const int screenHeight = 720;
