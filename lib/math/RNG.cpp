@@ -11,7 +11,7 @@ void seed()
 {
   if (!seeded)
   {
-    srand(time(static_cast<unsigned>(NULL)));
+    srand(time(nullptr));
     seeded = true;
   }
 }
