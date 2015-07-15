@@ -6,8 +6,8 @@
 */
 
 #include "../headers/GLGraphics.hpp"
-#include "../../../lib/math/glm/glm.hpp" //vec3,vec2
-#include "../../../lib/math/glm/gtc/type_ptr.hpp" //convert glm data type to raw pointers
+#include "../../../../lib/math/glm/glm.hpp" //vec3,vec2
+#include "../../../../lib/math/glm/gtc/type_ptr.hpp" //convert glm data type to raw pointers
 #include <math.h> //sin cos
 
 struct Quad

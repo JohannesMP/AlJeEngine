@@ -6,7 +6,7 @@
 */
 
 #include "../headers/GLShaderUniforms.h"
-#include "../../../lib/math/glm//gtc/type_ptr.hpp" //value_ptr
+#include "../../../../lib/math/glm/gtc/type_ptr.hpp" //value_ptr
 
 /*!
 * @brief Sends the shader data to the GPU, in this case a int
