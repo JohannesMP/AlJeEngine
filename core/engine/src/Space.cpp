@@ -98,7 +98,7 @@ namespace AlJeEngine
     for (auto entity : _entities)
       if (entity->Name() == name)
         return entity;
-    throw std::exception("Attempted to find an entity by name, but no entity with that name exists.");
+    throw std::runtime_error("Attempted to find an entity by name, but no entity with that name exists.");
   }
 
   void Space::RemoveEntity(EntityPtr in)
